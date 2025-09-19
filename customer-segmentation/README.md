@@ -31,13 +31,13 @@ Before modeling, the following preprocessing steps were applied:
 ### Elbow Method
 The elbow plot showed a sharp drop in inertia between `k=2` and `k=4`, then diminishing returns beyond `k=5`. This indicated that `k=4` or `k=5` are good candidates.
 
-![Elbow Plot](plots\elbow_method.png)
+![Elbow Plot](plots/elbow_method.png)
 
 ### Silhouette Analysis
 - **k=4**: Produced a balanced silhouette distribution with an average score around **X.XX**.
 - **k=5**: Produced slightly lower silhouette stability with an average score around **Y.YY**.
 
-![Silhouette Plot](plots\silhouette.png)
+![Silhouette Plot](plots/silhouette.png)
 
 Based on these metrics, **k=4 clusters** was selected as the final model.
 

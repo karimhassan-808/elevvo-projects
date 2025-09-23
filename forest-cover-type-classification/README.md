@@ -38,16 +38,22 @@ flowchart TD
 ```
 
 ## Models Trained 
-- Logistic Regression: 
+- Logistic Regression
+
 Accuracy: 68.61%, kinda small accuracy because of the low data after resampling.
+
 ![Confusion Matrix](plots/cm_logreg.png)
 
 - Random Forest Classifier
+
 Accuracy: 85.75%, way better than logistic regression.
+
 ![Confusion Matrix](plots/cm_rf.png)
 
 - XGBoost
+
 Accuracy: 86.5%, best model of the 3.
+
 ![Confusion Matrix](plots/cm_xgb.png)
 
 ## Evaluation

@@ -33,7 +33,7 @@ flowchart TD
     C --> F[Undersampling]
     F --> G[Lower Accuracy than Oversampling, Faster Training]
     G --> H[Chose Undersampling for Final Training]
-    H --> I[Trained Models: Logistic Regression, Decision Tree, Random Forest, XGBoost]
+    H --> I[Trained Models: Logistic Regression, Random Forest, XGBoost]
     I --> J[Evaluation: Accuracy, F1, Confusion Matrix, Feature Importance]
 ```
 

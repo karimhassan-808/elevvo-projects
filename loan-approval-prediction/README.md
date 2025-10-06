@@ -42,11 +42,7 @@ Applied StandardScaler on numerical columns for normalization.
 
 ### 4. Model Training
 
-Trained a Random Forest Classifier:
-```python
-rf_clf = RandomForestClassifier(n_estimators=100, random_state=42)
-rf_clf.fit(X_train, y_train)
-```
+Trained a Random Forest Classifier, LogisticRegression models
 
 Evaluated the model using:
 
